@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us - Taxbrick</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="contact-us.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <!-- nav bar start here -->
+    <header>
+        <nav class="navbar">
+            <div class="fixed-nav">
+                <div class="upper-nav-section">
+                    <img src="taxbrick logo.gif" class="logo">
+                    <div class="contact-number">+91 7307247775 </div>
+                    <div class="allcat-searchbar"><div class="all-categories">All categories</div>
+                    <div><input class="search-box" type="text" placeholder="Search for services..."> </div>
+                    <div><button class="top-button" type="submit"><i class="fa-solid fa-magnifying-glass"
+                                style="color: #ffffff;"></i></button></div>
+                                </div>
+                    <a class="anchor-whatsapp"><i class="fa-brands fa-whatsapp nav-whatsapp"></i></a>
+
+                    
+                    <span class="anchor-signin"><a><i class="fa-regular fa-user user-icon-signin"></i> Sign In</a>
+                        <div class="login-form-container">
+                            <h2 class="login-form-heading"> Login</h2>
+                            <form action="#">
+                                <input type="text" placeholder="Username" name="username" required>
+                                <div class="login-form-pass-container"> 
+                                <input type="password" placeholder="Password" name="password" required>
+                                <i class="fas fa-eye show-password"></i>
+                            </div>
+                            <button type="submit"></button>
+                            </form>
+                            
+                            </div>
+
+                    </span>
+                    <span class="blogs">Blogs</span>
+                    <span onclick="onClickMenu()"><i class="fa-solid fa-bars hamburger-icon"></i>
+
+                        <ul id="ham-menu-ul-id" class="ham-menu-ul">
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Sign In</a></li>
+                            <li><input type="text" id="searchBox" placeholder="Search for services..."></li>
+                            <li><a href="#">All Services</a></li>
+                            <li><a href="#">Track Order</a></li>
+                            <li><a href="#">Free ITR Filing</a></li>
+                            <li><a href="#">Book an Appointment</a></li>
+                            <li><a href="#">Contact Us </a></li>
+                            <li><a href="#">Blogs</a></li>
+
+                        </ul>
+                    </span>
+                </div>
+
+
+
+            </div>
+
+            <div class="lower-nav-section">
+                <div class="d">
+                    <button class="d-btn">Start Business</button>
+                    <div class="d-content">
+                        <div class="row">
+                            <div class="column">
+                                <h3>START AS A FIRM</h3>
+                                <a href="#">Proprietorship Firm Registration</a>
+                                <a href="#">Partnership Firm Registration</a>
+                                <a href="#">LLP Firm Registration</a>
+                            </div>
+                            <div class="column">
+                                <h3>START AS A COMPANY</h3>
+                                <a href="#">One Person Company</a>
+                                <a href="#">Private Ltd Company</a>
+                                <a href="#">Public Ltd Company</a>
+                                <a href="#">Producer Company</a>
+                                <a href="#">Nidhi Company</a>
+                                <a href="#">Indian Subsidiary</a>
+                            </div>
+                            <div class="column">
+                                <h3>START AS AN NGO</h3>
+                                <a href="#">Trust Registration</a>
+                                <a href="#">Society Registration</a>
+                                <a href="#">Section 8 Company</a>
+                                <a href="#">80G/12A Registration</a>
+                            </div>
+                            <div class="column">
+                                <h3>START AS A SPECIAL ENTITY</h3>
+                                <a href="#">HUF Registration</a>
+                                <a href="#">Business Trust</a>
+                                <a href="#">Cooperative Societies</a>
+                                <a href="#">USA Company Registration</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d2">
+                    <button class="d2-btn">GST</button>
+                    <div class="d2-content">
+                        <div class="row2">
+                            <div class="column2">
+                                <h3>CORE GST SERVICES</h3>
+                                <a href="#">GST Registration</a>
+                                <a href="#"> GST Return Filing</a>
+                                <a href="#">GST LUT Filing</a>
+                                <a href="#">GST Annual Return</a>
+                                <a href="#">GST Cancellation</a>
+                            </div>
+                            <div class="column2">
+                                <h3>ANCILLARY GST SERVICES</h3>
+                                <a href="#">Input Tax Credit Reconciliation</a>
+                                <a href="#">GST Refund on Exports</a>
+                                <a href="#">GST Notice Reply & Case Handling</a>
+                            </div>
+                            <div class="column2">
+                                <h3>FREE SERVICES</h3>
+                                <a href="#">GST Compliant Invoice</a>
+                                <a href="#"> E-Invoicing</a>
+                                <a href="#">Generate E-Way Bill</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d3">
+                    <button class="d3-btn">Income Tax</button>
+                    <div class="d3-content">
+                        <div class="row3">
+                            <div class="column3">
+                                <h3>RETURN FILING</h3>
+                                <a href="#">Salaried Return</a>
+                                <a href="#">Business Return</a>
+                                <a href="#">NGO Return</a>
+                                <a href="#">NRI Tax Return</a>
+                            </div>
+                            <div class="column3">
+                                <h3>OTHER TAX SERVICES</h3>
+                                <a href="#">TDS Return Filing</a>
+                                <a href="#">15CA/CB Filing</a>
+                                <a href="#">Tax Notice Reply & Case Handling</a>
+                                <a href="#"> CA Consultancy</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="d4">
+                    <button class="d4-btn">Accounting & Compliance</button>
+                    <div class="d4-content">
+                        <div class="row4">
+                            <div class="column4">
+                                <h3>ANNUAL COMPLIANCES</h3>
+                                <a href="#">Proprietorship Firm</a>
+                                <a href="#">Partnership Firm</a>
+                                <a href="#">Limited Liability Firm (LLP)</a>
+                                <a href="#">Private Limited Company</a>
+
+                            </div>
+                            <div class="column4">
+                                <h3>COMPANY COMPLIANCES</h3>
+                                <a href="#">Company Annual Filing</a>
+                                <a href="#">Add/Remove Director</a>
+                                <a href="#">Increase in Share Capital</a>
+                                <a href="#">Change Registered Address</a>
+                                <a href="#">Share Transfer</a>
+                                <a href="#">Winding Up of Company</a>
+                                <a href="#">Change Company Name</a>
+                            </div>
+                            <div class="column4">
+                                <h3>LLP COMPLIANCES</h3>
+                                <a href="#">LLP Annual Filing</a>
+                                <a href="#">Add/Remove Partner</a>
+                                <a href="#">Change Registered Address</a>
+                                <a href="#">Dissolution of LLP Firm</a>
+                                <a href="#">Change LLP Name</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d5">
+                    <button class="d5-btn">Registrations</button>
+                    <div class="d5-content">
+                        <div class="row5">
+                            <div class="column5">
+                                <h3>TRADEMARK & IP</h3>
+                                <a href="#">Trademark Registration</a>
+                                <a href="#">Patent Registration</a>
+                                <a href="#">Copyright Registration</a>
+                            </div>
+                            <div class="column5">
+                                <h3>BUSINESS REGISTRATION</h3>
+                                <a href="#">MSME (Udyam Registration)</a>
+                                <a href="#">Shop & Establishment License</a>
+                                <a href="#">Startup India Registration</a>
+                                <a href="#">FSSAI Registration (Food License)</a>
+                                <a href="#">Import/Export Code (IEC Registration)</a>
+                                <a href="#">Digital Signature Certificate (DSC)</a>
+
+                            </div>
+                            <div class="column5">
+                                <h3>LABOUR REGISTRATION</h3>
+                                <a href="#">Professional Tax Registration</a>
+                                <a href="#">PF Registration & Filing</a>
+                                <a href="#">ESI Registration & Filing</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </nav>
+    </header>
+
+    <!-- nav bar end here -->
+
+    <div class="mega-container">
+        <section class="sec1">
+            <div class="first-section">
+                <h2 class="first-section-heading">Contact Us</h2>
+                <!-- <div class="line-behind"></div> -->
+                <p>You can contact us at any time of the day. Our working hours are 10AM IST to 5PM IST.</p>
+            </div>
+        </section>
+
+
+        <section class="sec2">
+
+            <div class="sec2-container">
+
+                <div class="sec2-items">
+                    <i class="fa-solid fa-building"></i><br>
+                    <h5><span>Kanpur Head Office</span></h5>
+                    <h3 class="sec2-item-heading">Office Address </h3>
+                    <p class="sec2-item-desc">Ground Floor, I-129, Avas Vikas-1, Kalyanpur, Kanpur, Kanpur Nagar
+                        Kanpur Nagar UTTAR PRADESH 208017</p>
+                </div>
+                <div class="sec2-items">
+                    <i class="fa-solid fa-phone"></i><br>
+                    <h5><span>10AM - 5PM (IST)</span></h5>
+                    <h3 class="sec2-item-heading">Call Us</h3>
+                    <p class="sec2-item-desc">Helpline Number
+                        <br>
+                        +91 5127960719
+                    </p><br>
+                    <a href="#" class="call-now-button"> Call Now</a>
+                </div>
+                <div class="sec2-items">
+                    <i class="fa-solid fa-envelope"></i><br>
+                    <h5><span>24x7</span></h5>
+                    <h3 class="sec2-item-heading">Email Us</h3>
+                    <p class="sec2-item-desc">Helpline email
+                        <br>
+                        hello@taxbrick.com
+                    </p> <br>
+                    <a href="#" class="email-now-button"> Email Now</a>
+
+                </div>
+            </div>
+
+
+        </section>
+        <section class="sec3">
+            <div class="sec3-container">
+                <h2 class="sec3-form-heading">Connect with us </h2>
+                <div class="sec3-container-line">Have a question? Write to us!</div>
+
+                <div class="sec3-form">
+                    <form>
+
+                        <label for="name-lable">Name</label>
+                        <input class="sec3-form-input" type="text" placeholder="Name" id="name-lable">
+                        <label for="password-lable">Email</label>
+                        <input class="sec3-form-input" type="text" placeholder="Email" id="password-lable">
+                        <label for="message-lable">Message</label><br>
+                        <textarea class="sec3-form-input" placeholder="Message" id="message-lable"></textarea>
+                        <button class="sec2-form-button"> SEND </button>
+
+
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="map">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d161061.15297623537!2d80.22477291807014!3d26.483382376888446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x815cef1dc723bd8d%3A0xe44382943996ea06!2sTax%20Brick!5e0!3m2!1sen!2sin!4v1695185914644!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+    </div>
+
+
+    <footer>
+        <section class="footer-section">
+            <div class="footer-outer-container">
+                <div class="footer-list-container">
+
+                    <ul class="footer-list">
+                        <h3>Sitemap</h3>
+                        <li><a href="">About Tax Brick</a></li>
+                        <li><a href="">Track Order</a></li>
+                        <li><a href="">My Account</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list-container">
+
+                    <ul class="footer-list">
+                        <h3>Services</h3>
+                        <li><a href="">Startup</a></li>
+                        <li><a href="">GST</a></li>
+                        <li><a href="">Income Tax</a></li>
+                        <li><a href="">Accounting & Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list-container">
+
+                    <ul class="footer-list">
+                        <h3>Coming Soon</h3>
+                        <li><a href="">SIP Calculator</a></li>
+                        <li><a href="">Loan EMI Calculator</a></li>
+                        <li><a href="">GST Calculator</a></li>
+                        <li><a href="">HRA Calculator</a></li>
+                    </ul>
+
+
+                </div>
+                <div class="footer-list-container">
+
+                    <ul class="footer-list">
+                        <h3>Usage</h3>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Cancellation & Refund</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-lower-area">
+                <div class="footer-lower-area-inner">
+                    <p>Copyright © 2023 Taxbrick Solutions Private Limited. All rights reserved.
+                        <br>
+                        Unless otherwise indicated, all materials on these pages are copyrighted by Taxbrick Solutions
+                        Private Limited. All rights reserved. No part of these pages, either text or image may be used
+                        for any purpose.
+                    </p>
+                    <img src="All payment icons.png.webp">
+                </div>
+                <div class="footer-icons-container">
+
+                    <i class="fa-brands fa-facebook footer-icons" style="color: #010202;"></i>
+                    <i class="fa-brands fa-square-twitter footer-icons" style="color: #010202;"></i>
+                    <i class="fa-brands fa-instagram footer-icons" style="color: #010202;"></i>
+                    <i class="fa-brands fa-linkedin footer-icons" style="color: #010202;"></i>
+                    <i class="fa-brands fa-whatsapp footer-icons" style="color: #010202;"></i>
+
+                </div>
+            </div>
+
+        </section>
+    </footer>
+
+    <script src="contact-us.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.full-page-with-form{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1500px;
+    /* margin: 2px 10px; */
+
+}
+
+
+
+.content-page {
+    /* max-width: 1300px; */
+    width: 75%;
+    border: 2px solid red;
+    display: flex;
+    /* margin: auto;
+    position: relative; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-product-container {
+    border: 5px solid blue;
+    display: flex;
+    
+    border: 2px solid #d6d6d6;
+    background-color: #ffffff;
+    border-radius: 4px;
+
+
+
+
+
+
+}
+
+/* CSS for product image start here*/
+.image-container {
+    border: 5px solid green;
+
+}
+
+.product-image {
+    border: 2px solid #d6d6d6;
+    border-radius: 6px;
+    width: 300px;
+    height: 300px;
+}
+
+/* CSS for product image end here*/
+
+
+.product-name {
+    color: #011b52;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.short-line-desc {
+    color: #011b52;
+}
+
+.short-desc-box1,
+.short-desc-box2 {
+    border: 2px solid #d6d6d6;
+    box-shadow: 5px 7px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #fdf5ff, #f6f8ff);
+    margin: 5px 5px;
+}
+
+/* short description box container */
+.box-desc-container {
+    display: flex;
+}
+
+
+.discount-description {
+    background-color: #02a664;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    margin: 13px 0px 13px 0px;
+
+}
+
+.add-to-basket-btn {
+    background-color: #022268;
+    color: #fff;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+
+
+
+
+/* CSS for fixed side form  */
+
+ .side-form-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orangered;
+    position: fixed;
+    top: 10vh;
+    left: 80vw;
+    transform: translate(-50%, -50%);
+    /* margin: auto; */
+
+   
+
+}
+
+.side-form-heading {
+    background-color: #262626;
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .27);
+    font-size: 16px;
+    padding: 13px 14px;
+    font-family: "Poppins", "Sans-serif";
+    border-radius: 50px;
+
+
+}
+
+.side-main-form {
+    display: flex;
+    flex-direction: column;
+
+} 
