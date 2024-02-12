@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.full-page-with-form{
+.full-page-with-form {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -31,7 +31,7 @@
 .main-product-container {
     border: 5px solid blue;
     display: flex;
-    
+
     border: 2px solid #d6d6d6;
     background-color: #ffffff;
     border-radius: 4px;
@@ -107,7 +107,7 @@
 
 /* CSS for fixed side form  */
 
- .side-form-container {
+.side-form-container {
     display: flex;
     flex-direction: column;
     border: 2px solid orangered;
@@ -117,7 +117,7 @@
     transform: translate(-50%, -50%);
     /* margin: auto; */
 
-   
+
 
 }
 
@@ -137,4 +137,38 @@
     display: flex;
     flex-direction: column;
 
-} 
+}
+
+/* CSS for product description start here */
+
+.product-desc-main-container {
+    background-color: #f6f6f6;
+
+}
+
+.long-product-desc {
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #e7e7e7;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+
+
+.product-desc-heading {
+    color: #4472c4;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.product-desc-para {
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
