@@ -17,9 +17,9 @@
 
 
 .content-page {
-    /* max-width: 1300px; */
-    width: 75%;
-    border: 2px solid red;
+
+    width: 60%;
+    /* border: 2px solid red; */
     display: flex;
     /* margin: auto;
     position: relative; */
@@ -45,7 +45,7 @@
 
 /* CSS for product image start here*/
 .image-container {
-    border: 5px solid green;
+    /* border: 5px solid green; */
 
 }
 
@@ -54,6 +54,7 @@
     border-radius: 6px;
     width: 300px;
     height: 300px;
+    margin: 30px 10px 0px 0px
 }
 
 /* CSS for product image end here*/
@@ -63,19 +64,31 @@
     color: #011b52;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    padding: 0px 0px 0px 8px;
 }
 
 .short-line-desc {
     color: #011b52;
+    padding: 0px 0px 0px 8px;
 }
 
 .short-desc-box1,
 .short-desc-box2 {
     border: 2px solid #d6d6d6;
-    box-shadow: 5px 7px;
+    box-shadow: 5px 7px #555;
     border-radius: 4px;
     background-image: linear-gradient(to right, #fdf5ff, #f6f8ff);
     margin: 5px 5px;
+}
+
+
+.short-desc-box-heading {
+    padding: 3px 0px 0px 10px;
+}
+
+.short-desc-box-line {
+    font-weight: normal;
+    padding: 0px 0px 0px 10px;
 }
 
 /* short description box container */
@@ -93,6 +106,11 @@
 
 }
 
+.discounted-price {
+    text-decoration: line-through;
+
+}
+
 .add-to-basket-btn {
     background-color: #022268;
     color: #fff;
@@ -100,8 +118,15 @@
     border-radius: 5px;
     padding: 5px 15px;
     border: none;
+    width: 255px;
+    height: 45px;
+    font-size: 18px;
 }
 
+.add-to-basket-btn:hover {
+    background-color: #4169e1;
+    cursor: pointer;
+}
 
 
 
@@ -110,12 +135,13 @@
 .side-form-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     position: fixed;
     top: 10vh;
     left: 80vw;
-    transform: translate(-50%, -50%);
-    /* margin: auto; */
+    cursor: pointer;
+
+
 
 
 
@@ -129,6 +155,7 @@
     padding: 13px 14px;
     font-family: "Poppins", "Sans-serif";
     border-radius: 50px;
+    margin: 10px 10px 20px 10px;
 
 
 }
@@ -136,13 +163,35 @@
 .side-main-form {
     display: flex;
     flex-direction: column;
+    border: 1px solid #b9b9b9;
+    border-radius: 6px;
+    padding: 8px 0px 0px 0px;
 
+}
+
+.side-form-bottom-button {
+    background-color: #10c876;
+    color: #fff;
+    border: 0px;
+    border-radius: 0px 0px 6px 6px;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    margin: 9px 0px 0px 0px;
+}
+
+.side-form-input {
+    padding: 8px 0px 8px 9px;
+    margin: 6px 10px 2px 10px;
+    border: 1px solid #b9b9b9;
+    border-radius: 6px;
 }
 
 /* CSS for product description start here */
 
 .product-desc-main-container {
     background-color: #f6f6f6;
+    border-radius: 10px;
+    margin: 15px 0px 0px 0px;
 
 }
 
@@ -153,7 +202,7 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 18px;
 
 
 }
