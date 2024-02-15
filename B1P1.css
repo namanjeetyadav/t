@@ -210,7 +210,7 @@
     list-style: none;
     color: #011b52;
     padding: 16px 5px 22px 5px;
-
+    cursor: pointer;
 }
 
 .side-menu-list li {
