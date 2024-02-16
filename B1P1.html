@@ -59,16 +59,16 @@
       <section class="product-desc-main-container">
         <div class="side-menu-container">
           <ul class="side-menu-list">
-            <li>Overview</li>
-            <li>Documents</li>
-            <li>Benefits</li>
-            <li>Compliance</li>
-            <li>Compare</li>
-            <li>FAQs</li>
+            <li id="overview-btn">Overview</li>
+            <li id="document-btn">Documents</li>
+            <li id="benefits-btn">Benefits</li>
+            <li id="compliace-btn">Compliance</li>
+            <li id="compare-btn">Compare</li>
+            <li id="faqs-btn"><a href="#">FAQs</a></li>
           </ul>
         </div>
         <div class="outer-long-product-desc">
-          <div class="long-product-desc">
+          <div class="long-product-desc" id="overview">
             <h2 class="product-desc-heading">Overview</h2>
             <p class="product-desc-para">
               Start your business journey effortlessly with our streamlined Sole
@@ -77,7 +77,7 @@
               registration process and operational control from the get-go.
             </p>
           </div>
-          <div class="long-product-desc">
+          <div class="long-product-desc" id="document-req">
             <h2 class="product-desc-heading">
               Documents Required for Registering a Proprietorship Firm
             </h2>
@@ -105,22 +105,8 @@
             </ul>
             </p>
           </div>
-          <div class="long-product-desc">
-            <h2 class="product-desc-heading">
-              Benefits of Sole Proprietorship Firm Registration
-            </h2>
-            <p class="product-desc-para">
-              Merits of Sole Proprietorship Demerits of Sole Proprietorship Easy
-              to form and operate Unlimited personal liability Complete control
-              and decision-making power with the owner Limited ability to raise
-              capital Tax benefits as profits are taxed as personal income of the
-              owner Limited growth potential Flexibility to make changes in the
-              business quickly Difficulty in attracting and retaining talented
-              employees Minimal regulatory compliance requirements Limited ability
-              to transfer ownership or sell the business
-            </p>
-          </div>
-          <div class="long-product-desc">
+
+          <div class="long-product-desc" id="benefits">
             <h2 class="product-desc-heading">Benefits of Sole Proprietorship Firm Registration</h2>
             <p class="product-desc-para">
             <table class="desc-table">
@@ -156,7 +142,7 @@
             </p>
           </div>
 
-          <div class="long-product-desc">
+          <div class="long-product-desc" id="compliance">
             <h2 class="product-desc-heading">Compliance for Sole Proprietorship Firm Registration</h2>
             <p class="product-desc-para">
               Navigate compliance seamlessly with expert guidance:
@@ -169,7 +155,7 @@
             </p>
           </div>
 
-          <div class="long-product-desc">
+          <div class="long-product-desc" id="comparative-insights">
             <h2 class="product-desc-heading">Comparative Insights</h2>
             <p class="product-desc-para">
             <table class="desc-table">
@@ -258,7 +244,7 @@
             </p>
           </div>
 
-          <div class="long-product-desc">
+          <div class="long-product-desc" class="faqs">
             <h2 class="product-desc-heading">FAQs - Simplifying Your Queries</h2>
             <p class="product-desc-para">
             <p class="faq-para"><strong>Ques:</strong> What is a Sole Proprietorship Firm?</p>
@@ -352,6 +338,33 @@
       </form>
     </div>
   </div>
+
+  <script>
+    // window.addEventListener('scroll', function () {
+    //   console.log("scrolling....");
+    // });
+
+    // window.addEventListener('wheel', function (event) {
+    //   if (event.deltaY < 0) {
+    //     console.log("Scrolling up");
+    //   }
+    //   else if(event.deltaY > 0) {
+    //     console.log("Scrolling down");
+    //   }
+
+    // });
+
+    document.getElementById('faqs-btn').addEventListener('click', function () {
+      var faq = document.getElementById('faqs');
+      faq.scrollTo({ top: 0, });
+    });
+
+    // behavior: 'smooth' 
+
+   
+
+
+  </script>
 </body>
 
 </html>
