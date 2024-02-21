@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Proprietorship Firm Registration</title>
   <link rel="stylesheet" type="text/css" href="B1P1.css" />
   <!-- poppins font linking -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,18 +13,245 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <!-- font linking end here -->
+  <!-- Linking roboto font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Link roboto font end here -->
 
 </head>
 
 <body>
+  <header>
+    <nav class="navbar">
+      <div class="fixed-nav">
+        <div class="upper-nav-section">
+          <img src="taxbrick logo.gif" class="logo">
+          <div class="contact-number">+91 7307247775 </div>
+          <div class="allcat-searchbar">
+            <div class="all-categories">All categories</div>
+            <div><input class="search-box" type="text" placeholder="Search for services..."> </div>
+            <div><button class="top-button" type="submit"><i class="fa-solid fa-magnifying-glass"
+                  style="color: #ffffff;"></i></button></div>
+          </div>
+          <a class="anchor-whatsapp"><i class="fa-brands fa-whatsapp nav-whatsapp"></i></a>
+
+
+          <span class="anchor-signin"><a><i class="fa-regular fa-user user-icon-signin"></i> Sign In</a>
+            <div class="login-form-container">
+              <h2 class="login-form-heading"> Login</h2>
+              <form action="#">
+                <input type="text" placeholder="Username" name="username" required>
+                <div class="login-form-pass-container">
+                  <input type="password" placeholder="Password" name="password" required>
+                  <i class="fas fa-eye show-password"></i>
+                </div>
+                <button type="submit"></button>
+              </form>
+
+            </div>
+
+          </span>
+          <span class="blogs">Blogs</span>
+          <span onclick="onClickMenu()"><i class="fa-solid fa-bars hamburger-icon"></i>
+
+            <ul id="ham-menu-ul-id" class="ham-menu-ul">
+              <li><a href="#">Cart</a></li>
+              <li><a href="#">Sign In</a></li>
+              <li><input type="text" id="searchBox" placeholder="Search for services..."></li>
+              <li><a href="#">All Services</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Free ITR Filing</a></li>
+              <li><a href="#">Book an Appointment</a></li>
+              <li><a href="#">Contact Us </a></li>
+              <li><a href="#">Blogs</a></li>
+
+            </ul>
+          </span>
+        </div>
+
+
+
+      </div>
+
+      <div class="lower-nav-section">
+        <div class="d">
+          <button class="d-btn">Start Business</button>
+          <div class="d-content">
+            <div class="row">
+              <div class="column">
+                <h3>START AS A FIRM</h3>
+                <a href="#">Proprietorship Firm Registration</a>
+                <a href="#">Partnership Firm Registration</a>
+                <a href="#">LLP Firm Registration</a>
+              </div>
+              <div class="column">
+                <h3>START AS A COMPANY</h3>
+                <a href="#">One Person Company</a>
+                <a href="#">Private Ltd Company</a>
+                <a href="#">Public Ltd Company</a>
+                <a href="#">Producer Company</a>
+                <a href="#">Nidhi Company</a>
+                <a href="#">Indian Subsidiary</a>
+              </div>
+              <div class="column">
+                <h3>START AS AN NGO</h3>
+                <a href="#">Trust Registration</a>
+                <a href="#">Society Registration</a>
+                <a href="#">Section 8 Company</a>
+                <a href="#">80G/12A Registration</a>
+              </div>
+              <div class="column">
+                <h3>START AS A SPECIAL ENTITY</h3>
+                <a href="#">HUF Registration</a>
+                <a href="#">Business Trust</a>
+                <a href="#">Cooperative Societies</a>
+                <a href="#">USA Company Registration</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d2">
+          <button class="d2-btn">GST</button>
+          <div class="d2-content">
+            <div class="row2">
+              <div class="column2">
+                <h3>CORE GST SERVICES</h3>
+                <a href="#">GST Registration</a>
+                <a href="#"> GST Return Filing</a>
+                <a href="#">GST LUT Filing</a>
+                <a href="#">GST Annual Return</a>
+                <a href="#">GST Cancellation</a>
+              </div>
+              <div class="column2">
+                <h3>ANCILLARY GST SERVICES</h3>
+                <a href="#">Input Tax Credit Reconciliation</a>
+                <a href="#">GST Refund on Exports</a>
+                <a href="#">GST Notice Reply & Case Handling</a>
+              </div>
+              <div class="column2">
+                <h3>FREE SERVICES</h3>
+                <a href="#">GST Compliant Invoice</a>
+                <a href="#"> E-Invoicing</a>
+                <a href="#">Generate E-Way Bill</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d3">
+          <button class="d3-btn">Income Tax</button>
+          <div class="d3-content">
+            <div class="row3">
+              <div class="column3">
+                <h3>RETURN FILING</h3>
+                <a href="#">Salaried Return</a>
+                <a href="#">Business Return</a>
+                <a href="#">NGO Return</a>
+                <a href="#">NRI Tax Return</a>
+              </div>
+              <div class="column3">
+                <h3>OTHER TAX SERVICES</h3>
+                <a href="#">TDS Return Filing</a>
+                <a href="#">15CA/CB Filing</a>
+                <a href="#">Tax Notice Reply & Case Handling</a>
+                <a href="#"> CA Consultancy</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="d4">
+          <button class="d4-btn">Accounting & Compliance</button>
+          <div class="d4-content">
+            <div class="row4">
+              <div class="column4">
+                <h3>ANNUAL COMPLIANCES</h3>
+                <a href="#">Proprietorship Firm</a>
+                <a href="#">Partnership Firm</a>
+                <a href="#">Limited Liability Firm (LLP)</a>
+                <a href="#">Private Limited Company</a>
+
+              </div>
+              <div class="column4">
+                <h3>COMPANY COMPLIANCES</h3>
+                <a href="#">Company Annual Filing</a>
+                <a href="#">Add/Remove Director</a>
+                <a href="#">Increase in Share Capital</a>
+                <a href="#">Change Registered Address</a>
+                <a href="#">Share Transfer</a>
+                <a href="#">Winding Up of Company</a>
+                <a href="#">Change Company Name</a>
+              </div>
+              <div class="column4">
+                <h3>LLP COMPLIANCES</h3>
+                <a href="#">LLP Annual Filing</a>
+                <a href="#">Add/Remove Partner</a>
+                <a href="#">Change Registered Address</a>
+                <a href="#">Dissolution of LLP Firm</a>
+                <a href="#">Change LLP Name</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d5">
+          <button class="d5-btn">Registrations</button>
+          <div class="d5-content">
+            <div class="row5">
+              <div class="column5">
+                <h3>TRADEMARK & IP</h3>
+                <a href="#">Trademark Registration</a>
+                <a href="#">Patent Registration</a>
+                <a href="#">Copyright Registration</a>
+              </div>
+              <div class="column5">
+                <h3>BUSINESS REGISTRATION</h3>
+                <a href="#">MSME (Udyam Registration)</a>
+                <a href="#">Shop & Establishment License</a>
+                <a href="#">Startup India Registration</a>
+                <a href="#">FSSAI Registration (Food License)</a>
+                <a href="#">Import/Export Code (IEC Registration)</a>
+                <a href="#">Digital Signature Certificate (DSC)</a>
+
+              </div>
+              <div class="column5">
+                <h3>LABOUR REGISTRATION</h3>
+                <a href="#">Professional Tax Registration</a>
+                <a href="#">PF Registration & Filing</a>
+                <a href="#">ESI Registration & Filing</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    </nav>
+  </header>
+
+
+
+
   <div class="full-page-with-form">
     <div class="content-page">
       <div class="main-product-container">
         <div class="image-container">
-          <img src="PROPRIETORSHIP FIRM REGISTRATION .png" width="512" height="512" class="product-image" />
+          <img src="PROPRIETORSHIP FIRM REGISTRATION .png" width="350" height="auto" class="product-image" />
         </div>
         <div class="short-desc-container">
           <h1 class="product-name">Proprietorship Firm Registration</h1>
+          <h5 class="review-and-rating-heading"> <span class="customers-rating">4.7</span> <span
+              class="customers-review">3422 customers</span></h5>
           <div class="short-line-desc">
             Proprietorship firm Registration includes GST and MSME (Udyam
             Registration).
@@ -50,8 +277,8 @@
           </div>
           <hr class="" />
           <p class="price-container">
-            <span class="discounted-price">₹4998</span>
-            <span class="original-price"> ₹2499</span>
+            <span class="discounted-price">₹4,998</span>
+            <span class="original-price"> ₹2,499</span>
           </p>
           <button class="add-to-basket-btn">Add To Basket</button>
         </div>
@@ -64,7 +291,7 @@
             <li id="benefits-btn">Benefits</li>
             <li id="compliace-btn">Compliance</li>
             <li id="compare-btn">Compare</li>
-            <li id="faqs-btn"><a href="#">FAQs</a></li>
+            <li id="faqs-btn">FAQs</li>
           </ul>
         </div>
         <div class="outer-long-product-desc">
@@ -354,14 +581,14 @@
 
     // });
 
-    document.getElementById('faqs-btn').addEventListener('click', function () {
-      var faq = document.getElementById('faqs');
-      faq.scrollTo({ top: 0, });
-    });
+    // document.getElementById('faqs-btn').addEventListener('click', function () {
+    //   var faq = document.getElementById('faqs');
+    //   faq.scrollTo({ top: 0, });
+    // });
 
     // behavior: 'smooth' 
 
-   
+
 
 
   </script>
