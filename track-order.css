@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background: #fcfcfc;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.track-order-container {
+    margin: 20px 0px 0px 0px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    max-width: 1015px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.track-order-heading {
+    color: #000;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+p {
+    color: #000;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: inherit;
+    margin: 20px 0px 20px 0px;
+}
+
+.track-order-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    align-items: center;
+
+}
+
+.input-order-id {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 0px 10px 15px;
+    background-color: #fff;
+}
+
+input:focus {
+    outline: 1px solid black;
+    /* Change default browser outline */
+}
+
+
+
+.input-bill-email {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 0px 10px 15px;
+    background-color: #fff;
+}
+
+.track-btn {
+    background-color: #011B52;
+    /* width: 80px; */
+    color: #ffffff;
+    font-size: 10px;
+    padding: 12px 24px;
+}
+
+.track-btn:hover {
+    background-color: #000;
+}

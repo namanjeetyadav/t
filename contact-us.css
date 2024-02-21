@@ -45,7 +45,7 @@
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     width: 80%;
 
 
@@ -69,7 +69,7 @@
 
 }
 
-.allcat-searchbar{
+.allcat-searchbar {
     display: flex;
 }
 
@@ -81,7 +81,7 @@
     white-space: nowrap;
     font-size: 14px;
     height: 26px;
-    
+
 
 }
 
@@ -112,6 +112,7 @@
     color: #216f1f;
     font-size: 25px;
 }
+
 /* Signin css start here */
 .anchor-signin {
     /* margin: 2px 20px; */
@@ -121,15 +122,16 @@
 .user-icon-signin {
     color: #57667f;
 }
+
 /* css for login form display by sign */
-.login-form-container{
+.login-form-container {
     display: none;
     position: absolute;
-    
+
 }
 
-.anchor-signin:hover .login-form-container{
-  display: block;
+.anchor-signin:hover .login-form-container {
+    display: block;
 }
 
 .blogs {
@@ -148,7 +150,7 @@
     display: none;
 }
 
-.ham-menu-ul li{
+.ham-menu-ul li {
     padding: 16px;
 }
 
@@ -158,15 +160,15 @@
 }
 
 /* We will insert this CSS using the JavaScript */
-.change{
+.change {
     display: flex;
     flex-direction: column;
     z-index: 1000;
     height: 100vh;
     width: 30%;
-    position:fixed;
+    position: fixed;
     background-color: #fff;
-    
+
     /* justify-content: space-around; */
 
 
@@ -605,6 +607,12 @@ a.email-now-button {
 
 }
 
+input:focus {
+    outline: 1px solid black;
+    /* Change default browser outline */
+}
+
+
 .sec3-form textarea {
     background-color: white;
     border: 1px solid rgb(186, 186, 186);
@@ -613,6 +621,10 @@ a.email-now-button {
     height: 52px;
     padding-left: 10px;
 
+}
+
+textarea:focus {
+    outline: 1px solid black;
 }
 
 .sec3-form-heading {
@@ -745,42 +757,50 @@ h3 {
 
 /* Media query for nav bar  */
 @media screen and (max-width: 1210px) {
-    .upper-nav-section{
+    .upper-nav-section {
         width: 100%;
     }
-    
+
 }
-@media only screen and (max-width: 993px){
-    .lower-nav-section{
+
+@media only screen and (max-width: 993px) {
+    .lower-nav-section {
         display: none;
     }
-    .blogs{
+
+    .blogs {
         display: none;
     }
-    .anchor-signin{
+
+    .anchor-signin {
         display: none;
     }
-    .all-categories{
+
+    .all-categories {
         display: none;
     }
-    .contact-number{
+
+    .contact-number {
         display: none;
     }
-    .anchor-whatsapp{
+
+    .anchor-whatsapp {
         display: none;
     }
-    .search-box{
+
+    .search-box {
         padding: 2px 240px 2px 4px;
     }
 }
 
 /* media query for footer */
-@media only screen and (max-width: 766px){
-    .footer-outer-container{
+@media only screen and (max-width: 766px) {
+    .footer-outer-container {
         flex-direction: column;
         margin: 0px 0px;
     }
-   /* .footer-list-container{
+
+    /* .footer-list-container{
     float: left;
     
    } */

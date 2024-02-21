@@ -63,6 +63,11 @@
 
 }
 
+.contact-number:hover {
+    color: #4169e1;
+    cursor: pointer;
+}
+
 .allcat-searchbar {
     display: flex;
 }
@@ -126,6 +131,7 @@
 
 .anchor-signin:hover .login-form-container {
     display: block;
+    
 }
 
 .blogs {
