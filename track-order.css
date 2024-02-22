@@ -34,12 +34,15 @@
 
 }
 
-p {
+.track-order-main-line {
     color: #000;
-    font-size: 14px;
+    font-size: 15px;
     font-family: inherit;
     line-height: inherit;
     margin: 20px 0px 20px 0px;
+    text-align: center;
+    line-height: 22px;
+    font-family: "DM Sans", Sans-serif;
 }
 
 .track-order-form {
@@ -58,6 +61,17 @@ p {
     margin: 10px 0px 20px 0px;
     padding: 10px 0px 10px 15px;
     background-color: #fff;
+}
+
+::placeholder {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 430px) {
+
+    ::placeholder {
+        font-size: 15px;
+    }
 }
 
 input:focus {
@@ -80,10 +94,13 @@ input:focus {
     background-color: #011B52;
     /* width: 80px; */
     color: #ffffff;
-    font-size: 10px;
-    padding: 12px 24px;
+    font-size: 11px;
+    padding: 10px 31px;
+    border: 0px;
+
+
 }
 
 .track-btn:hover {
-    background-color: #000;
+    background-color: #325ee1;
 }
