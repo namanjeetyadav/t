@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fixed and Scrollable Navigation Bars</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Fixed navigation bar */
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Scrollable navigation bar */
+  .scrollable-nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  /* Some styles for navigation links */
+  .nav-link {
+    color: #fff; /* For fixed nav */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+
+  .nav-link.scroll {
+    color: #333; /* For scrollable nav */
+  }
+
+  /* Add some content to make the page scrollable */
+  .content {
+    height: 2000px;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Fixed navigation bar -->
+<div class="fixed-nav">
+  <a href="#" class="nav-link">Home</a>
+  <a href="#" class="nav-link">About</a>
+  <a href="#" class="nav-link">Services</a>
+  <a href="#" class="nav-link">Contact</a>
+</div>
+
+<!-- Spacer to make content below fixed nav -->
+<div style="height: 50px;"></div>
+
+<!-- Scrollable navigation bar -->
+<div class="scrollable-nav">
+  <a href="#" class="nav-link scroll">Home</a>
+  <a href="#" class="nav-link scroll">About</a>
+  <a href="#" class="nav-link scroll">Services</a>
+  <a href="#" class="nav-link scroll">Contact</a>
+</div>
+
+<!-- Content to make the page scrollable -->
+<div class="content">
+  <h2>Lorem Ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin nulla quis fermentum ultricies.</p>
+  <!-- Add more content here -->
+</div>
+
+</body>
+</html>
